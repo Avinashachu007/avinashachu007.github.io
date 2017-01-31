@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'fast'; /*a name to be used later*/
+    src: url('../fonts/barbatrick.ttf'); /*URL to font*/
+}
+body{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+.www{
+    font-family: monospace;
+    font-size: 30px;
+}
+.navbar {
+    margin-bottom: 0px;  
+    color: white; 
+    background: white;  
+}
+ul.nav.navbar-nav li .a{
+    color: white;
+}
+body{
+    background-color: white;
+}
+.container,.container-fluid{
+    background-color: white;
+}
+.navbar.transparent {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}   
+.jumbotron {background-color:transparent;}
+.container-full-bg {
+    background-image:url('../assets/bg.jpg') !important;
+    width:100%;
+    height:600px;
+    margin-top: -50px;
+    max-width:100%;
+    background-position:center;
+    background-size:cover;
+    }
+.hero{
+    width: 100%;
+    height: 600px;
+    margin-top: -50px;
+    background-color: transparent;
+    /*background-image:url('../assets/bg.jpg');   
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-repeat: no-repeat;*/
+    overflow: hidden;
+}
+.hero-text{
+
+}
+.strip{
+    width:100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+     background-image:url('../assets/bg.jpg');   
+    background-size: cover;
+    background-color: #0695f5;
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 40px;;
+
+}
+.fast  {
+    font-family: fast;
+}
+.well{
+    /*border-width: 5px;*/
+    border-top: 3px solid red;
+}
+.well img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.html-border{
+border-top: 3px solid red;
+}
+.css-border{
+    border-top: 3px solid #0071bc
+}
+footer{
+    background: transparent;
+    padding: 20px;
+}
+footer{
+    text-decoration: underline;
+}
